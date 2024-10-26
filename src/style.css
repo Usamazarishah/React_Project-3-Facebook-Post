@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #e0e8f3;
+}
+
+.postContainer{
+    width: 500px;
+    border-radius: 10px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 5px 8px 40px 3px rgba(0, 0, 0, 0.3);
+    margin-top: 50px;
+}
+.postHeader{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 18px;
+    margin-bottom: -15px;
+}
+.postDp{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.post-user-details{
+    display: flex;
+    gap: 5px;
+}
+.postName >h5{
+    margin:5px;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: medium;
+}
+.postName >span{
+    margin-left: 5px;
+    color:#8f9196;
+    font-size: small;
+    font-weight: bold;
+} 
+.options-icon{
+    color: #8f9196;
+    margin-top: 15px;
+}
+.post-para{
+    margin-left: 18px;
+    font-size: 16px;
+}
+.post-photo{
+    width: 100%;
+    height: 400px;
+}
+.icon-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 18px;
+    color:#4f5257;
+    border-width: 300px;
+    border-bottom: 1px solid #a7afbb;
+}
+.icons{
+    display: flex;
+    gap: 4px;
+}
+.icons svg:nth-child(1){
+    color: white;
+    background-color: red;
+    border-radius: 50%;
+    padding: 3px;
+}
+.icons svg:nth-child(2){
+    color: white;
+    padding: 3px;
+    background-color: blue;
+    border-radius: 50%;
+}
+.icons svg:nth-child(3){
+    color: yellow;
+    background-color: black;
+    padding: 3px;
+    border-radius: 50%;
+}
+.icons span:last-child{
+    padding: 3px;
+}
+.icon-section div:last-child{
+    padding: 3px;
+}
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 40px;
+    font-weight: 600;
+    color:#7c8088;
+}
+.footer-section span svg:nth-child(1){
+    color:#7c8088;
+    font-size: 18px;
+}
