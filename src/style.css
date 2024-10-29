@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    padding: 0;
+    padding-bottom: 30px ;
     font-family: sans-serif;
     background-color: #e0e8f3;
 }
@@ -11,7 +11,7 @@ body{
     margin: auto;
     background-color: white;
     box-shadow: 5px 8px 40px 3px rgba(0, 0, 0, 0.3);
-    margin-top: 50px;
+    margin-top: 40px;
 }
 .postHeader{
     display: flex;
@@ -23,10 +23,12 @@ body{
     width: 50px;
     height: 50px;
     border-radius: 50%;
+    border: 1px solid #adafb4;;
 }
 .post-user-details{
     display: flex;
     gap: 5px;
+
 }
 .postName >h5{
     margin:5px;
@@ -36,13 +38,23 @@ body{
 }
 .postName >span{
     margin-left: 5px;
-    color:#8f9196;
+    color:#77797c;
     font-size: small;
     font-weight: bold;
+    display: flex;
+    align-items: center;
 } 
-.options-icon{
-    color: #8f9196;
-    margin-top: 15px;
+.world-icon{
+    font-size: large;
+    padding-top: 2px;
+}
+.header-icon{
+    margin-top: 12px;
+    display: flex;
+    gap: 15px;
+    margin-right: 10px;
+    color:#77797c;
+    font-size: x-large;
 }
 .post-para{
     margin-left: 18px;
@@ -99,4 +111,13 @@ body{
 .footer-section span svg:nth-child(1){
     color:#7c8088;
     font-size: 18px;
+}
+h5 >a{
+    text-decoration: none;
+    color: rgb(57, 114, 236);
+}
+h5 >a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    
 }
